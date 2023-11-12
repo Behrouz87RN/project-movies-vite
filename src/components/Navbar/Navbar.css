@@ -60,3 +60,19 @@
 .link:hover{
     color: #d0cfcf;
 }
+
+@media screen and (max-width: 576px){
+    .navbar-list{
+        justify-content: center;
+        gap: 27px;
+        flex-wrap: wrap;
+
+    }
+    .signup{
+        font-size: 14px;
+    }
+    
+    .login{
+        font-size: 14px;
+    }
+}
