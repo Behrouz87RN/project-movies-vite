@@ -59,20 +59,15 @@ export const Home = () => {
         </div>
       ) : (
       <div className="main-home-container">
-        <div>
-            {/* <div>
-              <img/>vitrine
-            </div> */}
-            <div className="movie-list-title-select">
-                <h1>{listTypeTitle}</h1>
-                <label>
-                    <select value={listType} onChange={(e) => {setListType(e.target.value)}} className="select-movie-list-btn">
-                        <option value="popular">Popular</option>
-                        <option value="now-playing">In Theaters</option>
-                        <option value="upcoming">Upcoming</option>
-                    </select>
-                </label>
-            </div>
+        <div className="movie-list-title-select">
+            <h1>{listTypeTitle}</h1>
+            <label>
+                <select value={listType} onChange={(e) => {setListType(e.target.value)}} className="select-movie-list-btn">
+                    <option value="popular">Popular</option>
+                    <option value="now-playing">In Theaters</option>
+                    <option value="upcoming">Upcoming</option>
+                </select>
+            </label>
         </div>
         <MoviesList data={moviesList} />
       </div>

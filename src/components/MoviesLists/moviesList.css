@@ -64,3 +64,14 @@
     z-index: 10;
     scale: 1.1;
 }
+
+@media screen and (max-width: 616px){
+    .movie-list-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+  }
+}

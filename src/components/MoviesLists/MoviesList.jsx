@@ -10,8 +10,6 @@ export const MoviesList = (movies) => {
     const title = "Popular movie releases";
     console.log(moviesListData);
 
-    
-
     return(
         //remove this first div that's redundant - later
         <div className="movie-list-main-container">
