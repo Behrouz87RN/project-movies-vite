@@ -4,7 +4,7 @@ import "../Navbar/Navbar.css";
 export const NavBar = () => (
   <nav>
     <div className="navbar-container">
-      <div className="navbar-logo"><img src="/tmdb-logo.png" /></div>
+      <div className="navbar-logo"><img src="/tmdb-logo.png" alt="logo TMDB"/></div>
       <ul className="navbar-list">
         <li className="listItem">
           <NavLink to="/" className="link">Home</NavLink>
