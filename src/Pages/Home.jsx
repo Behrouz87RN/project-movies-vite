@@ -61,12 +61,12 @@ export const Home = () => {
       <div className="main-home-container">
         <div className="movie-list-title-select">
             <h1>{listTypeTitle}</h1>
-            <label>
-                <select value={listType} onChange={(e) => {setListType(e.target.value)}} className="select-movie-list-btn">
-                    <option value="popular">Popular</option>
-                    <option value="now-playing">In Theaters</option>
-                    <option value="upcoming">Upcoming</option>
-                </select>
+            <label htmlFor="list">
+            <select id="list" value={listType} onChange={(e) => {setListType(e.target.value)}} className="select-movie-list-btn">
+                <option value="popular">Popular</option>
+                <option value="now-playing">In Theaters</option>
+                <option value="upcoming">Upcoming</option>
+            </select>
             </label>
         </div>
         <MoviesList data={moviesList} />
