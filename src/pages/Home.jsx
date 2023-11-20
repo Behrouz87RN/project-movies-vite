@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { MoviesList } from "../components/MoviesLists/MoviesList";
-import "../components/MoviesLists/moviesList.css";
+import { MoviesList } from "../components/moviesLists/MoviesList";
+import "../components/moviesLists/moviesList.css";
 import "../index.css"
 
 export const Home = () => {
