@@ -4,7 +4,7 @@ import { Company } from "../pages/Company";
 import { NotFoundPage } from "./NotFoundPage/NotFoundPage";
 import { MovieInfo } from "../pages/MovieInfo";
 import { NewAccount } from "./CreateAccount/NewAccount";
-import { Login } from "./login/login";
+import { Login } from "./login/Login";
 
 const routes = (
   <Routes>
