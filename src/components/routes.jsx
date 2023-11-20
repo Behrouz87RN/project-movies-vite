@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { Company } from "../pages/Company";
-import { NotFoundPage } from "./NotFoundPage/NotFoundPage";
+import { NotFoundPage } from "./notFoundPage/NotFoundPage";
 import { MovieInfo } from "../pages/MovieInfo";
-import { NewAccount } from "./CreateAccount/NewAccount";
+import { NewAccount } from "./createAccount/NewAccount";
 import { Login } from "./login/Login";
 
 const routes = (
