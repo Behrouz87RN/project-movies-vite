@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import { Home } from "../pages/Home";
-import { Company } from "../pages/Company";
-import { NotFoundPage } from "./notFoundPage/NotFoundPage";
-import { MovieInfo } from "../pages/MovieInfo";
-import { NewAccount } from "./createAccount/NewAccount";
-import { Login } from "./login/Login";
+import { Home } from "./pages/Home";
+import { Company } from "./pages/Company";
+import { NotFoundPage } from "./components/notFoundPage/NotFoundPage";
+import { MovieInfo } from "./pages/MovieInfo";
+import { NewAccount } from "./components/createAccount/NewAccount";
+import { Login } from "./components/login/Login";
 
 const routes = (
   <Routes>
