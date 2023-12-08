@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import "./moviesList.css";
+import "./MoviesList.css";
 
 export const MoviesList = (movies) => {
 
-    const vApiKey = "3bb019d4b7aeaf767a2f2d36e7c42067";
+    const vApiKey = import.meta.env.VITE.OPENDB_KEY;
     const imgBaseUrl = "https://image.tmdb.org/t/p/";
     const posterSizeS = "w185";
     const moviesListData = movies.data;
