@@ -3,7 +3,7 @@ import "./MoviesList.css";
 
 export const MoviesList = (movies) => {
 
-    const vApiKey = import.meta.env.VITE.OPENDB_KEY;
+    const vApiKey = import.meta.env.VITE_OPENDB_KEY;
     const imgBaseUrl = "https://image.tmdb.org/t/p/";
     const posterSizeS = "w185";
     const moviesListData = movies.data;
