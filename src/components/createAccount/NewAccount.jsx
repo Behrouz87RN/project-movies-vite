@@ -1,4 +1,4 @@
-import "./newAccount.css";
+import "./NewAccount.css";
 
 export const NewAccount = () => {
   return (
