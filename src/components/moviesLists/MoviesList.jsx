@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./MoviesList.css";
+import "./moviesList.css";
 
 export const MoviesList = (movies) => {
 
@@ -9,7 +9,6 @@ export const MoviesList = (movies) => {
     const moviesListData = movies.data;
     const title = "Popular movie releases";
     console.log(moviesListData);
-
     return(
         //remove this first div that's redundant - later
         <div className="movie-list-main-container">
