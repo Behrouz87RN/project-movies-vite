@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { MoviesList } from "../components/moviesLists/MoviesList";
+import { MoviesList } from "../components/moviesLists/moviesList";
 // import "../components/MoviesLists/moviesList.css";
 // import "../Company.css"
 
