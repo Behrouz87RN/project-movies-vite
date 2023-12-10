@@ -1,4 +1,4 @@
-import "./NotFoundPage.css"
+import "./notFoundPage.css"
 
 export const NotFoundPage = () => {
   return (
